@@ -10,6 +10,7 @@
 
 ###ET LT
 > epoll事件分发接口可以处理条件触发LT和边缘触发ET，两种机制的不同描述如下：
+
 1. 表示读的管道（rfd）的fd注册到 epoll实例中
 2. 一个写的管道写了2kb数据
 3. 触发对epollwait的回调并返回一个rfd（ready file descripter）
